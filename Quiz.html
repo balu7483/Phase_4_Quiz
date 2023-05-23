@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="Quiz.js"></script>
+    <title>Quiz</title>
+    <style>
+        body {
+            font-family: "Helvetica Neue", Arial, sans-serif;
+            background-color: #f6f6f6;
+            padding: 20px;
+        }
+
+        h1, h2 {
+            color: #333;
+            text-align: center;
+        }
+
+        #Quiz-Container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #Choices {
+            list-style: none;
+            padding: 0;
+        }
+
+        #Choices li {
+            margin-bottom: 10px;
+        }
+
+        #Next, #Review {
+            display: block;
+            margin: 0 auto;
+            padding: 10px 20px;
+            background-color: #000;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        #Next:hover, #Review:hover {
+            background-color: #333;
+        }
+
+        #Result-Container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #Result {
+            color: #333;
+        }
+        
+        /* Added styles for review answers */
+        .correct {
+            color: green;
+            font-weight: bold;
+        }
+
+        .incorrect {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Quiz</h1>
+    <div id="Quiz-Container">
+        <h2 id="Question"></h2>
+        <ul id="Choices"></ul>
+        <button id="Next">Next</button>
+    </div>
+    <div id="Result-Container">
+        <h2 id="Result"></h2>
+    </div>
+    <button id="Review" style="display: none;">Review Answers</button>
+</body>
+</html>

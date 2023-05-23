@@ -1,0 +1,56 @@
+
+{
+    "questions":[
+        {
+            "question":"1. ……………………. was the first person who travelled the South Pole.",
+            "choices":["A. Tenzing Norgay","B. Edmund Hillary","C. Rober Peary","D. Ronald Amundsen"],
+            "correctAns":"D. Ronald Amundsen"
+        },
+        {
+            "question": "2. The classical/folk dances namely Chakri and Jhulan Leela belong to …",
+            "choices":["A. Arunachal Pradesh","B. Karnataka","C. Rajasthan","D. Maharashtra"],
+            "correctAns":"C. Rajasthan"
+        },
+        {
+            "question": "3. Which among the following is known as ‘Gift of the Nile?’",
+            "choices":["A. Algeria","B. Egypt","C. Tunisia","D. Greek"],
+            "correctAns":"B. Egypt"
+        },
+        {
+            "question": "4. The book, ‘Golden Threshold,’ was written by …",
+            "choices":["A. M. K. Gandhi","B. R. K. Narayanan","C. Dr. S. Radhakrishnan","D. Sarojini Naidu"],
+            "correctAns":"D. Sarojini Naidu"
+        },
+        {
+            "question": "5. Which among the following is the nearest to earth planet?",
+            "choices":["A. Mercury","B. Venus","C. Mars","D. Neptune"],
+            "correctAns":"B. Venus"
+        },
+        {
+            "question": "6. In a Cricket World Cup match, who has scored the highest runs (individually)?",
+            "choices":["A. Sachin Tendulkar","B. Ricky Ponting","C. Virat Kohli","D. AB de Villiers"],
+            "correctAns":"A. Sachin Tendulkar"
+        },
+        {
+            "question": "7. Who among the following had first introduced the Olympic Games?",
+            "choices":["A. Greek","B. Roman","C. Egyptian","D. Chinese"],
+            "correctAns":"A. Greek"
+        },
+        {
+            "question": "8. Leaning Tower is located in …",
+            "choices":["A. UK","B. USA","C. India","D. Italy"],
+            "correctAns":"D. Italy"
+        },
+        {
+            "question": "9. In which of the following years, India did participate in Olympic Games first time?",
+            "choices":["A. 1896","B. 1920","C. 1900","D. 1928"],
+            "correctAns":"C. 1900"
+        },
+        {
+            "question": "10. Subhash Chandra Bose airport is located in …",
+            "choices":["A. Mumbai","B. Kolkata","C. Guwahati","D. Darjeeling"],
+            "correctAns":"D. Kolkata"
+        }
+
+]
+}
